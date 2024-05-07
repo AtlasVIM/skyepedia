@@ -1,0 +1,67 @@
+.homepage {
+  background-image: url("../public/cloudsbg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 15rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #262a25;
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  color: #262a25
+}
+
+
+#home-icon {
+  width: 500px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: #262a25;
+  width: 20vw;
+  height: 100%;
+}
+
+.sidebar-icon {
+  width: 2rem;
+  margin: 1vh 1vw; 
+  cursor: pointer;
+}
+
+.sidebar-wrapper {
+  display: flex;
+  position: fixed;
+}
