@@ -1,8 +1,9 @@
-.homepage {
+.background {
   background-image: url("../public/cloudsbg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  height: 100vh;
 }
 
 main {
@@ -52,7 +53,7 @@ li {
   position: fixed;
   background-color: #262a25;
   width: 20rem;
-  height: 100%;
+  height: 100vh;
   box-sizing: border-box;
   padding: 30px 20px;
   transition: width .2s ease-in;
@@ -160,7 +161,7 @@ li {
   align-items: center;
 }
 
-.sidebar .sidebar-navigation .subnav .subnav-item{
+/*.sidebar .sidebar-navigation .subnav .subnav-item{
   font-size: 15px;
   padding-left: 15px;
   padding-bottom: 10px;
@@ -172,8 +173,8 @@ li {
   font-weight: bold;
   border-left: 1px solid white;
 }
-
-.sidebar .sidebar-navigation .subnav li {
+*/
+/*.sidebar .sidebar-navigation .subnav div {
   color: white;
   font-weight: bold;
   padding-bottom: 5px;
@@ -181,24 +182,88 @@ li {
   padding-left: 15px;
   border-left: 1px solid white;
   margin-left: 40px;
-}
+}*/
 
-.sidebar .sidebar-navigation .subnav p {
+/*.sidebar .sidebar-navigation .subnav p {
   color:white;
   font-weight: bold;
   padding: 5px 0 5px 0px;
   margin: 0 0 0 20px;
-}
+}*/
 
 
 
-.sidebar .sidebar-navigation .subnav .subnav-item :hover{
+/*.sidebar .sidebar-navigation .subnav .subnav-item :hover{
+  background-color: #1b1b1b;
+  cursor: pointer;
+}*/
+
+
+.sidebar .sidebar-navigation div:hover {
   background-color: #1b1b1b;
   cursor: pointer;
 }
 
+.form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
 
-.sidebar .sidebar-navigation .subnav li:hover {
-  background-color: #1b1b1b;
-  cursor: pointer;
+form.login, form.register {
+}
+
+form input {
+  height: 25px;
+  border-radius: 5px;
+  margin: 5px 5px;
+  border: 3px #262a25
+}
+
+form button {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #262a25;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.general-page-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items:end;
+  justify-content: center;
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.page-base {
+  background-color: #6583aa67;
+  width: 85%;
+  display: flex;
+  gap: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: scroll;
+  scrollbar-width: none;
+  height: 90vh;
+
+}
+
+.filters-wrapper {
+  border-top-left-radius: inherit;
+  background-color: #2b4b69;
+  width: 20%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.page-items {
+  overflow-y: scroll;
+  scrollbar-width: none;
 }

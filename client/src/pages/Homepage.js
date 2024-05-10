@@ -1,7 +1,10 @@
-import Homescreen from "../components/Homescreen"
 
 export default function Homepage() {
-   return( <div className='homepage'>
-      <Homescreen/>
-    </div>)
+return  (<main>
+      <img id='home-icon' alt="homescreen icon" src='skyepedia-icon-png.png'></img>
+      {/*<nav>
+        <Link to="/login">Login</Link>
+        <Link to="/register">Register</Link>
+</nav>*/}
+  </main>)
 }
