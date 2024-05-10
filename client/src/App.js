@@ -9,7 +9,6 @@ import WorldFilters from './components/filters/WorldFilters';
 //import RegisterPage from './pages/RegisterPage';
 
 function App() {
-
   return (
     <Routes>
       <Route path="/" element={<Layout/>}>
@@ -17,7 +16,7 @@ function App() {
           {/*<Route path='/login' element={<LoginPage/>}/>
           <Route path='/register' element={<RegisterPage/>}/>*/}
           <Route path='/world' element={
-          <GeneralPage itemsComponent={'9'} filters={'1'} />}/>
+          <GeneralPage itemsComponent={<WorldItems/>} filters={<WorldFilters/>} />}/>
           <Route path='/characters' element={
           <GeneralPage/>}/>
           <Route path='/orgs' element={
