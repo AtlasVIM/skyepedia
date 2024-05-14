@@ -1,3 +1,7 @@
+:root{
+  --glass : rgba(255,255,255,0.3)
+}
+
 .background {
   background-image: url("../public/cloudsbg.png");
   background-repeat: no-repeat;
@@ -237,66 +241,67 @@ form button {
   width: 100%;
   align-items: center;
   justify-content: center;
-  overflow: scroll;
-  overflow-x: hidden;
   scrollbar-width: none;
 }
 
 .page-base {
   background-color: #6583aa67;
   width: 85%;
-  display: flex;
-  gap: 10px;
   border-radius: 10px;
-  overflow: scroll;
   scrollbar-width: none;
   height: 90vh;
-
+  overflow-y: scroll;
 }
 
 .filters-wrapper {
-  float: inline-end;
   display: flex;
-  z-index: 10;
-  align-items: baseline;
-  height: 10%;
+  align-items: center;
+  justify-content: center;
 }
 
-
+.filters-wrapper input {
+  border-radius: 2px;
+  border: 0px;
+  border-bottom: #1b1b1b 1px;
+  height: 2rem;
+}
 
 .filters-wrapper img {
   width: 2rem;
   margin: 1rem 1rem;
-  transition: width 10ms ease-out 100ms;
-  	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	-webkit-transform: skewX(-25deg);
-	transform: skewX(-25deg);
+  cursor: pointer;
+  z-index: 2;
 }
-.filters-wrapper img:hover::before {
-	-webkit-animation: shine .75s;
-	animation: shine .75s;
-}
-@-webkit-keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
-@keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
-
 
 .filters-wrapper img:hover {
-  width: 2.5rem;
+  content: url('assets/icons/filter-2-icon.svg');
 }
+
 
 .page-items {
   width: 100%;
-  overflow-y: scroll;
   scrollbar-width: none;
+}
+
+.page-items div {
+  margin: 20px;
+  display: flex;
+  flex-flow: wrap;
+  overflow: visible;
+  gap: 15px;
+}
+
+
+.page-items img {
+  width: 15%;
+  height: 15%;
+  box-shadow: 5px 2px 2px #1b1b1b4d;
+  transition: width 0.3s;
+}
+
+.page-items img:hover {
+  width: 17%;
+  z-index: 1;
 }
 
 .dividing-line-page {
