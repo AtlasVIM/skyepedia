@@ -6,6 +6,7 @@ import GeneralPage from './pages/GeneralPage';
 import WorldItems from './components/page-components/WorldItems';
 import WorldFilters from './components/filters/WorldFilters';
 import CreatePage from './pages/CreatePage';
+import CharacterTypeIndex from './pages/CharacterIndexPage';
 //import LoginPage from './pages/LoginPage';
 //import RegisterPage from './pages/RegisterPage';
 
@@ -19,17 +20,14 @@ function App() {
           <Route path='/world' element={
           <GeneralPage itemsComponent={<WorldItems/>} filters={<WorldFilters/>} />}/>
           <Route path='/characters' element={
-          <GeneralPage/>}/>
-          <Route path='/orgs' element={
-          ''}/>
-          <Route path='/species' element={
-          ''}/>
-          <Route path='/religion' element={
-          ''}/>
-          <Route path='/ideologies' element={
-          ''}/>
-          <Route path='/dailylife' element={
-          ''}/>
+          <CharacterTypeIndex/>}/>
+          <Route path="characters/npcs" element={<GeneralPage/>}/>
+          <Route path="characters/players"/>
+          <Route path='/orgs' element={<GeneralPage/>}/>
+          <Route path='/species' element={<GeneralPage/>}/>
+          <Route path='/religion' element={<GeneralPage/>}/>
+          <Route path='/ideologies' element={<GeneralPage/>}/>
+          <Route path='/dailylife' element={<GeneralPage/>}/>
           <Route path='/create/page' element={<CreatePage/>} />
           </Route>
     </Routes>

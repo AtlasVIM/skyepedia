@@ -60,7 +60,12 @@ export default function CreatePage() {
                 </input>
 
                 <input type="file" onChange={e => setCover(e.target.files)} ></input>
-
+                <select placeholder='Select'>
+                    <option value={'world '}></option>
+                    <option value={'character-npc'}></option>
+                    <option value={'character-player'}></option>
+                    <option value={'character-player'}></option>
+                </select>
                 <ReactQuill 
                  value={content}
                  onChange={newValue => setContent(newValue)} 

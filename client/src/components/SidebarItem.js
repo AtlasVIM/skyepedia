@@ -9,7 +9,7 @@ export default function SidebarItem(props) {
     
     return (
             <div>
-                {to && <Link className="nav-item" to={to} onClick={() => toggleSubNav(!isToggled)}>
+                {to && <Link className="nav-item" to={to}>
                     <div className="nav-icon">
                         <img alt={Object.keys(icon)} src={icon}/>
                     </div>

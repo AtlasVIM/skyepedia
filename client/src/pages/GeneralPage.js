@@ -4,22 +4,22 @@ import { useEffect } from "react";
 
 export default function GeneralPage(props) {
 
-    useEffect(() => {
+    /*useEffect(() => {
         fetch('/items').then(response => {
             response.json().then(items => {
                 console.log(items)
             })
         })
-    }, [])
+    }, [])*/
 
     return(
 
         <div className="general-page-wrapper">
             <div className="page-base">
-                <div className="filters-wrapper">
+                {props.filters && <div className="filters-wrapper">
                     <input placeholder='search'></input>
                     <img src={filterIcon}></img>
-                </div>
+                </div> }
                 <div className="page-items">
                     {props.itemsComponent}
                 </div>

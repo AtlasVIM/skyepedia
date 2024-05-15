@@ -281,6 +281,7 @@ form button {
 
 .page-items {
   width: 100%;
+  height: 100%;
   scrollbar-width: none;
 }
 
@@ -299,6 +300,7 @@ form button {
   box-shadow: 5px 2px 2px #1b1b1b4d;
   transition: width 0.3s;
 }
+
 
 .page-items img:hover {
   width: 17%;
@@ -319,4 +321,27 @@ justify-items:  center;
 flex-direction: column;
 width: 70%;
 text-align: center;
+}
+
+.char-idx {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.char-idx a {
+  width: 20vw;
+}
+
+.char-idx img {
+  width: 100%;
+  box-shadow: 5px 2px 2px #1b1b1b4d;
+  transition: width 0.3s;
+}
+
+.char-idx img:hover {
+  width: 120%;
 }
