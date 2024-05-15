@@ -19,7 +19,10 @@ app.get('/test', (req, res) => {
 app.post('/', async (req, res) => {
 
     try{
-        await pool.query('CREATE TABLE ')
+        await pool.query('CREATE TABLE world( id SERIAL PRIMARY KEY, name VARCHAR(100), dimension VARCHAR(100)')
+    } catch(e) {
+        console.log(e)
+        res.sendStatus(500)
     }
 
 })
