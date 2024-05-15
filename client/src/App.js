@@ -5,6 +5,7 @@ import Layout from './Layout';
 import GeneralPage from './pages/GeneralPage';
 import WorldItems from './components/page-components/WorldItems';
 import WorldFilters from './components/filters/WorldFilters';
+import CreatePage from './pages/CreatePage';
 //import LoginPage from './pages/LoginPage';
 //import RegisterPage from './pages/RegisterPage';
 
@@ -29,6 +30,7 @@ function App() {
           ''}/>
           <Route path='/dailylife' element={
           ''}/>
+          <Route path='/create/page' element={<CreatePage/>} />
           </Route>
     </Routes>
   );

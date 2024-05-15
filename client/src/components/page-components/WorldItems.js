@@ -4,13 +4,5 @@ import recetor from '../../assets/icons/recetor v2-FRONT.png'
 
 export default function WorldItems() {
     return (<div>
-        <img src={recetor}></img>
-        <img src={recetor}></img>
-        <img src={recetor}></img>
-        <img src={recetor}></img>
-        <img src={recetor}></img>
-        <img src={recetor}></img>
-        <img src={recetor}></img>
-        <img src={recetor}></img>
     </div>)
 }
