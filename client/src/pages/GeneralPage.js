@@ -1,6 +1,7 @@
-import WorldFilters from "../components/filters/WorldFilters";
 import filterIcon from '../assets/icons/filter-icon.svg';
-import { useEffect } from "react";
+import { worldDB } from '../db/pageitemsdb';
+import { Link, Route, Routes } from 'react-router-dom';
+
 
 export default function GeneralPage(props) {
 
@@ -21,7 +22,14 @@ export default function GeneralPage(props) {
                     <img src={filterIcon}></img>
                 </div> }
                 <div className="page-items">
-                    {props.itemsComponent}
+                    {worldDB.map((entries) => {
+                        return(<div>
+                        
+                        <Link to={entries.to}>
+                        <img className='covers' src={entries.cover}/>
+                        </Link>
+                        </div>)
+                    })}
                 </div>
             </div>
         </div>

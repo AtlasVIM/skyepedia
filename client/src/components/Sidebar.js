@@ -10,7 +10,7 @@ export default function Sidebar() {
 const [inactive, setInactive] = useState(true)
 
     return(
-        <div className={`sidebar ${inactive? 'inactive' : ''}`}>
+        <div className={`sidebar ${inactive? 'inactive' : ''}`} onMouseLeave={() => setInactive(true)}>
         <div className="sidebar-top">
             <div className="toggle-icon" onClick={() => setInactive(!inactive)}>
                 <img src={encyclopedia} alt="Toggle navigation bar button"/>
