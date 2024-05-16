@@ -7,8 +7,8 @@ import WorldFilters from './components/filters/WorldFilters';
 import CreatePage from './pages/CreatePage';
 import CharacterTypeIndex from './pages/CharacterIndexPage';
 import WorldDetailsPage from './pages/WorldDetailsPage';
-import ItemLibrary from './components/page-components/ItemLibrary';
 import { worldDB } from './db/pageitemsdb';
+import WorldDetailsWrapper from './pages/WorldDetailsWrapper';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Route path="/" element={<Layout/>}>
           <Route index element={<Homepage/>}/>
           <Route path='/world' element={
-          <GeneralPage itemsComponent={<ItemLibrary db={worldDB}/>} filters={<WorldFilters/>} />}/>
+          <GeneralPage db={worldDB} filters={<WorldFilters/>} />}/>
           <Route path='/characters' element={<CharacterTypeIndex/>}/>
           <Route path="characters/npcs" element={<GeneralPage/>}/>
           <Route path="characters/players"/>
@@ -26,8 +26,7 @@ function App() {
           <Route path='/ideologies' element={<GeneralPage/>}/>
           <Route path='/dailylife' element={<GeneralPage/>}/>
           <Route path='/create/page' element={<CreatePage/>} />
-          <Route path='/teste' element={<WorldDetailsPage/>} />
-          <Route path='/world/:id' element={<WorldDetailsPage/>} />
+          <Route path='/world/:id' element={<WorldDetailsWrapper/>}/>
           </Route>
     </Routes>
   );

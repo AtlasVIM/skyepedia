@@ -1,11 +1,17 @@
-import home from '../assets/covers/npcs.png'
 
 
 
 export default function WorldDetailsPage(props) {
+
     return (<div className='parallax'>
-        {console.log('aaaaaaaa')}
-        <img src={home}/>
+       {console.log(props.props)}
+       {props.props.map((element) => {
+        return(
+            <div>
+                {element}
+            </div>
+        )
+       })}
     </div>)
 
 }

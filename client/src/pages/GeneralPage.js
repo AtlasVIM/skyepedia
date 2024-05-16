@@ -1,9 +1,13 @@
 import filterIcon from '../assets/icons/filter-icon.svg';
 import { worldDB } from '../db/pageitemsdb';
-import { Link, Route, Routes } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import WorldDetailsPage from './WorldDetailsPage';
 
 export default function GeneralPage(props) {
+
+    const {db} = props
+    const [search, setSearch] = useState('')
 
     /*useEffect(() => {
         fetch('/items').then(response => {
@@ -18,17 +22,20 @@ export default function GeneralPage(props) {
         <div className="general-page-wrapper">
             <div className="page-base">
                 {props.filters && <div className="filters-wrapper">
-                    <input placeholder='search'></input>
+                    <input value={search} onChange={(e) => {setSearch(e.target.value)}} placeholder='search'></input>
                     <img src={filterIcon}></img>
                 </div> }
                 <div className="page-items">
-                    {worldDB.map((entries) => {
-                        return(<div>
-                        
+                    {db && db.filter((items) => {
+                        if(search !== '' || search != null) {
+                            return items.name.toLowerCase().includes(search)
+                        }
+                    }).map((entries) => {
+                        return(
                         <Link to={entries.to}>
                         <img className='covers' src={entries.cover}/>
                         </Link>
-                        </div>)
+                        )
                     })}
                 </div>
             </div>

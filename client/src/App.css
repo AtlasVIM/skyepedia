@@ -295,14 +295,16 @@ form button {
 
 
 .page-items img {
-  width: 25%;
+  margin: 20px;
+  width: 15%;
   box-shadow: 5px 2px 2px #1b1b1b4d;
   transition: width 0.3s;
 }
 
 
+
 .page-items img:hover {
-  width: 30%;
+  width: 20%;
   z-index: 1;
 }
 
