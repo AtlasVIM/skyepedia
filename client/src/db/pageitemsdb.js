@@ -1,8 +1,8 @@
 import leviCover from '../assets/covers/leviu.png'
-import honkshuCover from '../assets/covers/honkshu.png'
 import ruinCover from '../assets/covers/ruin.png'
 import museumCover from '../assets/covers/leviumuseum.png'
 import revolutionCover from '../assets/covers/mekhanes.png'
+import guidiviereCover from '../assets/covers/guidiviere.png'
 import WorldIntroduction from '../components/page-components/world/WorldIntroduction'
 import WorldHistory from '../components/page-components/world/WorldHistory'
 import { ga, gc, ina, nna, pa, est } from './vardb'
@@ -25,6 +25,16 @@ export const worldDB = [
         dimension: [est],
         celestialRegion: [gc],
         elements: [<WorldIntroduction/>],
+    },
+    {
+        name: 'Guidivière',
+        to: 'guidiviere',
+        cover: guidiviereCover,
+        category:[pa],
+        dimension: [nna],
+        celestialRegion: [gc],
+        elements: [<WorldIntroduction/>]
+
     }
 ]
 
