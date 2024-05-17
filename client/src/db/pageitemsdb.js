@@ -5,7 +5,7 @@ import revolutionCover from '../assets/covers/mekhanes.png'
 import guidiviereCover from '../assets/covers/guidiviere.png'
 import WorldIntroduction from '../components/page-components/world/WorldIntroduction'
 import WorldHistory from '../components/page-components/world/WorldHistory'
-import { ga, gc, ina, nna, pa, est } from './vardb'
+import { ga, gc, ina, nna, pa, est, major, saint } from './vardb'
 
 export const worldDB = [
     {
@@ -52,14 +52,14 @@ export const speciesDB = [
     {
         name: 'Eastern Spine Frog',
         to: 'eastern_spine_frog',
-        cover: '',
+        cover: revolutionCover,
         celestialRegion: [gc],
         type: ['fauna']
     },
     {
         name: 'Green Wyvern of the Rivers',
         to:'green_wyvern_rivers',
-        cover: '',
+        cover: revolutionCover,
         celestialRegion: [gc],
         type: ['fauna']
     }
@@ -71,13 +71,13 @@ export const religionDB = [
         to: 'revolution',
         cover: revolutionCover,
         celestialRegion: [gc],
-        type: ['major', 'saint']
+        type: [major, saint]
     },
     {
         name: 'The Ruin',
         to: 'ruin',
         cover: ruinCover,
         celestialRegion: [gc],
-        type: ['major']
+        type: [major]
     },
 ]

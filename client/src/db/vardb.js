@@ -18,3 +18,9 @@ export const pa = 'political areas'
 
 export const gc = 'grand cumulus'
 export const gn = 'grand nimbus'
+
+
+// Religion Types
+export const major = 'major deity'
+export const minor = 'minor deity'
+export const saint = 'saint'

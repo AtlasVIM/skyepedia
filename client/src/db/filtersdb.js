@@ -1,4 +1,4 @@
-import { cr, est, ga, gc, gr, ina, lm, nna, pa, poi, sett, gn } from "./vardb";
+import { cr, est, ga, gc, gr, ina, lm, nna, pa, poi, sett, gn, saint, minor, major } from "./vardb";
 
 /*export const worldFilters =
     [
@@ -38,6 +38,11 @@ export const religionFilters = {
     celestialRegion: [
         {value:gc, label:gc.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
         {value:gn, label:gn.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
+    ],
+    type: [
+        {value:major, label:major.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
+        {value:minor, label:minor.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
+        {value:saint, label:saint.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
     ]
 }
 /*export const worldFilters = 
