@@ -17,3 +17,4 @@ export const pa = 'political areas'
 // World Celestial Region
 
 export const gc = 'grand cumulus'
+export const gn = 'grand nimbus'

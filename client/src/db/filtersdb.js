@@ -1,4 +1,4 @@
-import { cr, est, ga, gc, gr, ina, lm, nna, pa, poi, sett } from "./vardb";
+import { cr, est, ga, gc, gr, ina, lm, nna, pa, poi, sett, gn } from "./vardb";
 
 /*export const worldFilters =
     [
@@ -8,13 +8,13 @@ import { cr, est, ga, gc, gr, ina, lm, nna, pa, poi, sett } from "./vardb";
     ] 
       */
 export const worldFilters = 
-[
-    [
+{
+
+    category: [
         {value:pa, label:pa.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
         {value:ga, label:ga.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
     ],
-    [
-
+    dimension: [
         {value:cr, label:cr.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
         {value:est, label:est.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
         {value:gr, label:gr.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
@@ -25,11 +25,21 @@ export const worldFilters =
         {value:sett, label:sett.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
         
     ],
-    [
-
+    celestialRegion:    [
+        
         {value:gc, label:gc.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
+        {value:gn, label:gn.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
     ]
-]
+
+}
+
+
+export const religionFilters = {
+    celestialRegion: [
+        {value:gc, label:gc.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
+        {value:gn, label:gn.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
+    ]
+}
 /*export const worldFilters = 
 {
     category:[
@@ -37,7 +47,7 @@ export const worldFilters =
         {value:ga, label:ga.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
     ],
     dimension:[
-
+        
         {value:cr, label:cr.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
         {value:est, label:est.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
         {value:gr, label:gr.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},

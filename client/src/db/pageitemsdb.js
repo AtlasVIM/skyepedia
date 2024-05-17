@@ -16,27 +16,24 @@ export const worldDB = [
         dimension: [nna],
         celestialRegion: [gc],
         elements: [<WorldIntroduction/>, <WorldHistory/>],
-        filters: [pa, nna, gc]
     },
     {
         name: 'Honkshu',
         to: 'honkshu',
         cover: honkshuCover,
-        type:[ga],
+        category:[ga],
         dimension: [ina],
         celestialRegion: [gc],
         elements: [<WorldIntroduction/>],
-        filters: [ga, ina, gc]
     },
     {
         name: 'Leviathan University\'s Museum of Curiosities',
         to: 'leviathan_university_museum_of_curiosities',
         cover: museumCover,
-        type:[pa],
+        category:[pa],
         dimension: [est],
         celestialRegion: [gc],
         elements: [<WorldIntroduction/>],
-        filters: [pa, est, gc]
     }
 ]
 
