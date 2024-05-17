@@ -13,25 +13,25 @@ export default function GeneralPage(props) {
     useEffect(() => {
         setFiltered(props.db)
     }, [props.db])
+    
+            function filterBySelection() {
+                     Object.keys(selectedFilters).forEach(filter => {
+                      selectedFilters[filter].forEach((entry) => {
+                        const arr = filteredItems.filter((item) => {
+                            console.log(item[filter].includes(entry.value))
+                            return item[filter].includes(entry.value)
+                        })
+                        setFiltered(arr)
+                    })
+                    })
+            
+            
+            }
+            
 
     function handleSelection(select, idx) {
         selectedFilters[idx] = select
         setSelectedFilters(selectedFilters)
-
-        function filterBySelection() {
-                 Object.keys(selectedFilters).forEach(filter => {
-                  selectedFilters[filter].forEach((entry) => {
-                    const arr = filteredItems.filter((item) => {
-                        console.log(item[filter].includes(entry.value))
-                        return item[filter].includes(entry.value)
-                    })
-                    setFiltered(arr)
-                })
-                })
-        
-        
-        }
-        
         filterBySelection()
         
         if(!filterIsSelected()) {
@@ -53,7 +53,7 @@ export default function GeneralPage(props) {
                 <div className="filters-wrapper">
                     
                     <input value={search} onChange={(e) => {setSearch(e.target.value)}} placeholder='search'></input>
-                    <img src={filterIcon} onClick={() => setStatus(!filterStatus)}/>
+                    <img alt={'filter icon'} src={filterIcon} onClick={() => setStatus(!filterStatus)}/>
                     {filterStatus && props.filters && Object.keys(props.filters).map((idx) => {
                         return (
                             <div>

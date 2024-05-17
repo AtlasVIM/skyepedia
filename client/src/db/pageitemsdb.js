@@ -18,15 +18,6 @@ export const worldDB = [
         elements: [<WorldIntroduction/>, <WorldHistory/>],
     },
     {
-        name: 'Honkshu',
-        to: 'honkshu',
-        cover: honkshuCover,
-        category:[ga],
-        dimension: [ina],
-        celestialRegion: [gc],
-        elements: [<WorldIntroduction/>],
-    },
-    {
         name: 'Leviathan University\'s Museum of Curiosities',
         to: 'leviathan_university_museum_of_curiosities',
         cover: museumCover,
