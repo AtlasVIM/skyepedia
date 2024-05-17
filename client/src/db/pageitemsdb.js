@@ -2,6 +2,7 @@ import leviCover from '../assets/covers/leviu.png'
 import ruinCover from '../assets/covers/ruin.png'
 import museumCover from '../assets/covers/leviumuseum.png'
 import revolutionCover from '../assets/covers/mekhanes.png'
+import greenWyvernRiverCover from '../assets/covers/green_wyvern.png'
 import guidiviereCover from '../assets/covers/guidiviere.png'
 import WorldIntroduction from '../components/page-components/world/WorldIntroduction'
 import WorldHistory from '../components/page-components/world/WorldHistory'
@@ -52,14 +53,14 @@ export const speciesDB = [
     {
         name: 'Eastern Spine Frog',
         to: 'eastern_spine_frog',
-        cover: revolutionCover,
+        cover: greenWyvernRiverCover,
         celestialRegion: [gc],
         type: ['fauna']
     },
     {
         name: 'Green Wyvern of the Rivers',
         to:'green_wyvern_rivers',
-        cover: revolutionCover,
+        cover: greenWyvernRiverCover,
         celestialRegion: [gc],
         type: ['fauna']
     }
