@@ -14,7 +14,7 @@ main {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-content:center;
+  align-items:center;
   flex-direction: column;
 }
 
@@ -130,7 +130,7 @@ li {
 
 .sidebar .sidebar-navigation {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: left;
 
 }
@@ -163,7 +163,7 @@ li {
   color: white;
   display: flex;
   justify-content: left;
-  align-content: center;
+  align-items: center;
 }
 
 
@@ -224,7 +224,7 @@ form button {
   background-color: #6583aa67;
   margin-top: 10px;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   flex-flow: wrap;
 }
@@ -232,7 +232,7 @@ form button {
 .filters-wrapper div {
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
   flex-flow: wrap;
 }
 
@@ -311,7 +311,7 @@ text-align: center;
   display: flex;
   gap: 10vw;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -340,14 +340,19 @@ text-align: center;
   width: 100vw;
   height: 100vh;
   display: flex;
-  align-content: center;
-  justify-content: center;
 }
 
 .world-intro div {
+  width: 100%;
   min-height: 75vh;
   display: grid;
   grid-template-areas: "stack";
+}
+
+.world-intro div img {
+  align-self: center;
+  justify-self: center;
+  
 }
 
 .world-intro div > * {
@@ -355,5 +360,51 @@ text-align: center;
 }
 
 .world-intro div .cover {
-  width: 40vh;
+  width: 20%;
+  align-self: center;
+  justify-self:baseline;
+  margin-left: 32rem;
+  box-shadow: -8px 3px 8px 3px #1b1b1b67;
+}
+
+.flip-card {
+  width: 20%;
+  align-self: center;
+  justify-self:baseline;
+  background-color: transparent;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  align-self: center;
+  justify-self:baseline;
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
 }

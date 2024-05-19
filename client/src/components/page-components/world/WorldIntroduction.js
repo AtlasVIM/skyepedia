@@ -9,8 +9,15 @@ export default function WorldIntroduction(props) {
         <div className='world-intro'>
             <div>
                 <img alt='book' src={bookBG}/>
-                <div>
-                    <img className='cover' alt='entry cover' src={entry.cover} />
+                <div className='flip-card'>
+                    <div className='flip-card-inner'>
+                        <div className='flip-card-front'>
+                           <img className='cover' alt={`${entry.name} Item Card`} src={entry.cover} />
+                        </div>
+                        <div className='flip-card-back'>
+                            <p>poggers</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
