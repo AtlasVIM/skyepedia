@@ -44,10 +44,10 @@ export default function CreatePage() {
         data.set('file', cover[0])
         e.preventDefault();
         console.log(cover)
-        const response = await fetch('http://localhost:4000/post' , {
+        /*const response = await fetch('http://localhost:4000/post' , {
             method: 'POST',
             body: data
-        });
+        });*/
     }
 
     return(

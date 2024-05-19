@@ -14,7 +14,7 @@ main {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-content:center;
   flex-direction: column;
 }
 
@@ -78,7 +78,7 @@ li {
   overflow: hidden;
   display: flex;
   cursor: pointer;
-  align-items: center;
+  align-content: center;
   justify-content: center;
 }
 
@@ -130,7 +130,7 @@ li {
 
 .sidebar .sidebar-navigation {
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: left;
 
 }
@@ -163,45 +163,8 @@ li {
   color: white;
   display: flex;
   justify-content: left;
-  align-items: center;
+  align-content: center;
 }
-
-/*.sidebar .sidebar-navigation .subnav .subnav-item{
-  font-size: 15px;
-  padding-left: 15px;
-  padding-bottom: 10px;
-  padding-top: 5px;
-  text-decoration: 0;
-  width: 100%;
-  color: white;
-  margin-left: 20px;
-  font-weight: bold;
-  border-left: 1px solid white;
-}
-*/
-/*.sidebar .sidebar-navigation .subnav div {
-  color: white;
-  font-weight: bold;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 15px;
-  border-left: 1px solid white;
-  margin-left: 40px;
-}*/
-
-/*.sidebar .sidebar-navigation .subnav p {
-  color:white;
-  font-weight: bold;
-  padding: 5px 0 5px 0px;
-  margin: 0 0 0 20px;
-}*/
-
-
-
-/*.sidebar .sidebar-navigation .subnav .subnav-item :hover{
-  background-color: #1b1b1b;
-  cursor: pointer;
-}*/
 
 
 .sidebar .sidebar-navigation div:hover {
@@ -212,13 +175,11 @@ li {
 .form-page {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   height: 100vh;
   width: 100vw;
 }
 
-form.login, form.register {
-}
 
 form input {
   height: 25px;
@@ -240,25 +201,30 @@ form button {
   display: flex;
   height: 100vh;
   width: 100%;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   scrollbar-width: none;
 }
 
 .page-base {
-  background-color: #6583aa67;
   width: 85%;
   border-radius: 10px;
   scrollbar-width: thin;
   height: 90vh;
   overflow-y: scroll;
   scrollbar-color: gray transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .filters-wrapper {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #6583aa67;
   margin-top: 10px;
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   flex-flow: wrap;
 }
@@ -266,7 +232,7 @@ form button {
 .filters-wrapper div {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-content: center;
   flex-flow: wrap;
 }
 
@@ -333,8 +299,8 @@ form button {
 
 div form {
 display: flex;
-align-items: center;
-justify-items:  center;
+align-content: center;
+justify-content:  center;
 flex-direction: column;
 width: 70%;
 text-align: center;
@@ -345,7 +311,7 @@ text-align: center;
   display: flex;
   gap: 10vw;
   flex-direction: row;
-  align-items: center;
+  align-content: center;
   justify-content: space-between;
 }
 
@@ -365,4 +331,29 @@ text-align: center;
 }
 
 .select-filter {
+}
+
+
+/* ENTRY DETAILS */
+.world-intro {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.world-intro div {
+  min-height: 75vh;
+  display: grid;
+  grid-template-areas: "stack";
+}
+
+.world-intro div > * {
+  grid-area: stack;
+}
+
+.world-intro div .cover {
+  width: 40vh;
 }

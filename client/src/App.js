@@ -6,7 +6,7 @@ import GeneralPage from './pages/GeneralPage';
 import CreatePage from './pages/CreatePage';
 import CharacterTypeIndex from './pages/CharacterIndexPage';
 import { religionDB, speciesDB, worldDB } from './db/pageitemsdb';
-import WorldDetailsWrapper from './components/page-components/world/WorldDetailsWrapper.js';
+import EntryDetailsWrapper from './components/page-components/EntryDetailsWrapper.js';
 import { religionFilters, worldFilters } from './db/filtersdb.js';
 
 
@@ -28,8 +28,8 @@ function App() {
           <Route path="characters/npcs" element={<GeneralPage/>}/>
           <Route path="characters/players"/>
           
-          <Route path='/world/:id' element={<WorldDetailsWrapper/>}/>
-          <Route path='/religion/:id' element={<WorldDetailsWrapper/>}/>
+          <Route path='/world/:id' element={<EntryDetailsWrapper db={worldDB}/>}/>
+          <Route path='/religion/:id' element={<EntryDetailsWrapper/>}/>
           
           <Route path='/create/page' element={<CreatePage/>} />
 
