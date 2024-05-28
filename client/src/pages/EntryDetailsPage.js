@@ -4,10 +4,11 @@ import DetailsIntroduction from "../components/page-components/details/DetailsIn
 
 
 export default function EntryDetailsPage(props) {
+    const entry = props.props
 
     return (<div className='details-wrapper'>
-       <DetailsIntroduction props={props.props}/>
-       <DetailsHistory props={props.props}/>
+       {entry.elements.includes('intro') && <DetailsIntroduction props={entry}/>}
+       {entry.elements.includes('history') && <DetailsHistory props={entry}/>}
     </div>)
 
 }

@@ -1,7 +1,7 @@
 import { useState } from "react"
 import encyclopedia from '../assets/icons/encyclopedia.ico'
 import SidebarItem from "./SidebarItem"
-import { sidebarItems } from "../db/sidebaritemsdb"
+import { sidebarItems } from "../db/sidebar/sidebaritemsdb"
 
 
 

@@ -24,3 +24,7 @@ export const gn = 'grand nimbus'
 export const major = 'major deity'
 export const minor = 'minor deity'
 export const saint = 'saint'
+
+//Species Types
+export const fau = 'fauna'
+export const flo = 'flora'

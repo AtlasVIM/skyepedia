@@ -1,6 +1,6 @@
 import bookBG from '../../../assets/openbookbg.png'
 import { FlipCard } from '../FlipCard'
-import ReactMarkdown from 'react-markdown'
+import Markdown from 'markdown-to-jsx'
 
 export default function DetailsIntroduction(props) {
 
@@ -10,9 +10,9 @@ export default function DetailsIntroduction(props) {
         <div className='details-intro-wrapper'>
             <div className='book-bg-intro' style={{backgroundImage: `url(${bookBG})`}}>
             <FlipCard props={entry}/>
-            <ReactMarkdown className='intro-content jacquard-12-regular'>
-            {entry.quote}
-            </ReactMarkdown>
+                <Markdown className='intro-content jacquard-12-regular'>
+                    {entry.quote}
+                </Markdown>
             </div>
         </div>
      )

@@ -320,7 +320,7 @@ text-align: center;
 .char-idx {
   height: 100%;
   display: flex;
-  gap: 10vw;
+  gap: 10dvw;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -328,7 +328,7 @@ text-align: center;
 
 
 .char-idx a {
-  width: 20vw;
+  width: 20dvw;
 }
 
 .char-idx img {
@@ -358,8 +358,8 @@ text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 24vw;
-  height: 40vw;
+  width: 24dvw;
+  height: 40dvw;
   border-radius: 12px;
   color: azure;
 }
@@ -372,13 +372,13 @@ text-align: center;
 
 /*Intro Component*/
 .details-intro-wrapper {
-  width: 100vw;
+  width: 100dvw;
   margin-top: 30px;
   margin-bottom: 100px;
 }
 
 .intro-content {
-  width: 20vw;
+  width: 20dvw;
 }
 
 
@@ -403,7 +403,7 @@ text-align: center;
 }
 
 .history-wrapper img {
-  width: 25vw;
+  width: 25dvw;
   height: 100%
 }
 .history-wrapper p {
