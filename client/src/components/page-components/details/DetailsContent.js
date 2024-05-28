@@ -1,12 +1,12 @@
 import Markdown from "markdown-to-jsx"
 import { useEffect, useState } from "react"
 
-export default function DetailsHistory(props) {
+export default function DetailsContent(props) {
     const entry = props.props
     const [content, setContent] = useState('')
 
     useEffect(() => {
-        import(`../../../markdown/history/${entry.md}.md`)
+        import(`../../../../public/markdown/content/${entry.md}.md`)
         .then( res => {
 
             fetch(res.default)
@@ -20,8 +20,7 @@ export default function DetailsHistory(props) {
 
     return(
         <div className='history-wrapper'>
-            <img alt='History POLAROID' src={entry.polaroids.history}/>
-            <Markdown className='permanent-marker-regular'>
+            <Markdown className='permanent-marker-regular content-wrapper'>
                 {content}
             </Markdown>
         </div>

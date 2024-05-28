@@ -1,4 +1,4 @@
-import { ga, gc, ina, nna, pa, est, major, saint } from '../misc/vardb'
+import { ga, gc, npc} from '../misc/vardb'
 
 
 export const npcDB = [
@@ -7,7 +7,7 @@ export const npcDB = [
         to:'damien_shamrock',
         cover: '',
         celestialRegion: [gc],
-        type: ['npc'],
+        type: [npc],
         polaroids: {
             history: 'leviUPolaroid'
         },

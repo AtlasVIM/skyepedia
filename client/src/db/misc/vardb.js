@@ -28,3 +28,6 @@ export const saint = 'saint'
 //Species Types
 export const fau = 'fauna'
 export const flo = 'flora'
+
+//Character Types
+export const npc = 'npc'

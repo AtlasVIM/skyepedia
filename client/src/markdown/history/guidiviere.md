@@ -1,3 +1,4 @@
+<img style="float: left;" src='./'>
 this is a test
 this is a test
 this is a test

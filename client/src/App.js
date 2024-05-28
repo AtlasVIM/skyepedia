@@ -15,6 +15,7 @@ import { religionDB } from './db/page-items/religiondb.js';
 import { speciesDB } from './db/page-items/speciesdb.js';
 import { ideologiesDB } from './db/page-items/ideologiesdb.js';
 import { dailylifeDB } from './db/page-items/dailylifedb.js';
+import { itemsDB } from './db/page-items/itemsdb.js';
 
 import { religionFilters, speciesFilters, worldFilters } from './db/misc/filtersdb.js';
 import { literatureDB } from './db/page-items/literaturedb.js';
@@ -35,6 +36,7 @@ function App() {
           <Route path='/ideologies' element={<GeneralListPage db={ideologiesDB}/>}/>
           <Route path='/dailylife' element={<GeneralListPage db={dailylifeDB}/>}/>
           <Route path='/literature' element={<GeneralListPage db={literatureDB}/>}/>
+          <Route path='/items' element={<GeneralListPage db={itemsDB}/>}/>
           <Route path='/characters' element={<CharacterTypeIndex/>}/>
           
           <Route path="characters/npcs" element={<GeneralListPage db={npcDB}/>}/>
@@ -48,6 +50,7 @@ function App() {
           <Route path='/dailylife/:id' element={<EntryDetailsWrapper db={dailylifeDB}/>}/>
           <Route path='/orgs/:id' element={<EntryDetailsWrapper db={orgDB}/>}/>
           <Route path='/literature/:id' element={<EntryDetailsWrapper db={literatureDB}/>}/>
+          <Route path='/items/:id' element={<EntryDetailsWrapper db={itemsDB}/>}/>
           
 
           </Route>

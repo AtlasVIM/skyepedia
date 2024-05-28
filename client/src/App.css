@@ -406,7 +406,13 @@ text-align: center;
   width: 25dvw;
   height: 100%
 }
-.history-wrapper p {
-  background-color: aliceblue;
+
+.content-wrapper img {
+  width:25dvw;
+  height: auto;
 }
 
+.content-wrapper p {
+  background-color: #5d739c80;
+  font-size: 1dvw;
+}

@@ -55,7 +55,7 @@ export const worldDB = [
             history: leviUPolaroid,
         },
         md: 'guidiviere',
-        elements: ['intro'],
+        elements: ['intro', 'history'],
         quote: '*"Oh nation of rivers of gold, how gilded is your heart."*  -Odessipus, The Poet'
 
     }
