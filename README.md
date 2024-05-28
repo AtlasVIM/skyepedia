@@ -6,3 +6,5 @@ App built with React JS.
 React  
 React-Router-Dom  
 React-Select  
+React-Card-Flip  
+React-Table

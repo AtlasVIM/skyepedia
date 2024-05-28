@@ -1,19 +1,13 @@
-import WorldIntroduction from "../components/page-components/world/WorldIntroduction";
+import DetailsHistory from "../components/page-components/details/DetailsHistory";
+import DetailsIntroduction from "../components/page-components/details/DetailsIntroduction";
 
 
 
 export default function EntryDetailsPage(props) {
 
-    return (<div className='parallax'>
-       {console.log(props.props)}
-       {/*props.props.elements.map((element) => {
-        return(
-            <div>
-                {element}
-            </div>
-        )
-       })*/}
-       <WorldIntroduction props={props.props}/>
+    return (<div className='details-wrapper'>
+       <DetailsIntroduction props={props.props}/>
+       <DetailsHistory props={props.props}/>
     </div>)
 
 }

@@ -1,0 +1,19 @@
+import polaroid from '../../../assets/polaroids/HISTORY_TEMPLATE.png'
+
+export default function DetailsHistory(props) {
+    const entry = props.props
+    return(
+        <div className='history-wrapper'>
+            <img alt='History POLAROID' src={entry.polaroids.history}/>
+            <p className='permanent-marker-regular'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue sed lacus eu semper. Pellentesque elit diam, venenatis quis mi et, rutrum mollis ligula. In hac habitasse platea dictumst. Vivamus finibus vitae sapien non viverra. Aliquam elementum porttitor erat, non porta libero pulvinar quis. Mauris in tortor egestas, consequat purus et, tincidunt ipsum. Quisque gravida, nunc eu ultrices rutrum, ante erat blandit lorem, sed lobortis orci massa in neque. Sed sagittis dui non augue vehicula mollis. Suspendisse sed mollis nulla, tristique tristique ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed commodo, lorem id faucibus aliquam, enim odio aliquet quam, id sodales est metus eu lacus. Donec luctus justo sit amet ultricies porta. Integer tempus tempor lacus sit amet sagittis. Morbi congue augue quis accumsan finibus. Sed iaculis convallis pretium. Praesent ultrices leo non libero maximus, nec venenatis elit molestie.
+                Mauris id tellus vitae tellus pellentesque convallis in ut augue. Integer iaculis varius diam, sed sollicitudin diam viverra a. Donec ante ex, scelerisque vel erat at, malesuada tempor elit. Nullam eleifend leo non mi ornare, quis posuere enim congue. Vivamus a vehicula nulla. Aliquam quis blandit nibh, sed suscipit libero. Cras aliquet dictum velit, eu aliquam lectus ultricies pharetra. Aenean finibus tellus accumsan, viverra orci sit amet, interdum nulla. In ut viverra justo. Aliquam ac aliquam justo, vel venenatis massa. Ut maximus vestibulum nisl, sed luctus quam sagittis non.
+                Donec ut ex sapien. Proin placerat eros in velit pellentesque lobortis. Morbi laoreet imperdiet nisi, vitae interdum ligula sodales ut. Maecenas convallis, odio vel blandit lobortis, orci dolor tincidunt neque, vitae placerat velit risus vel neque. Vivamus malesuada neque eros, ultricies blandit mi laoreet eu. Donec eget vulputate leo. Maecenas vitae nibh vitae nulla cursus volutpat. Maecenas feugiat feugiat placerat. Suspendisse eget consequat risus, ut dictum sem. Quisque id lorem quis libero rhoncus ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Suspendisse tellus libero, mattis et volutpat aliquam, tempus id sem. Vivamus vitae augue ac ipsum hendrerit viverra lacinia ut sem. Curabitur nisl arcu, dapibus vitae mi sit amet, imperdiet eleifend ipsum. Vestibulum quam dolor, posuere sit amet varius at, eleifend vel neque. Morbi id efficitur ante. Nullam mi ligula, vehicula iaculis nisl sed, rhoncus vehicula orci. Suspendisse vehicula suscipit est. Pellentesque massa urna, vestibulum quis fermentum a, iaculis id sem. Etiam sodales lacus vitae justo sodales lobortis. Ut ut odio et mauris fringilla luctus. Aliquam erat volutpat. Nam at elit accumsan, ultricies orci ac, vestibulum dolor. Integer vulputate nisl risus, nec iaculis nunc malesuada in.
+In a faucibus nulla, lacinia commodo quam. Vestibulum bibendum orci vel mollis gravida. Nullam sed tellus ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc elementum eget tortor et luctus. Aenean pretium dapibus lectus eget laoreet. Integer sed nisl at mi fringilla fringilla. Vestibulum vel maximus lectus. Vivamus ut sem ac urna lobortis consectetur. Duis lobortis risus ac justo mollis sollicitudin. Mauris non scelerisque nisi, eu ullamcorper ante. Nunc dapibus metus a libero fermentum, sit amet vestibulum sem porttitor. Sed lobortis hendrerit aliquam.
+            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            </p>
+        </div>
+        
+    )
+}

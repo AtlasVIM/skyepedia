@@ -1,5 +1,36 @@
-:root{
-  --glass : rgba(255,255,255,0.3)
+/*FONTS*/
+.jacquard-24-charted-regular {
+  font-family: "Jacquard 24 Charted", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style:normal;
+  font-size: 4vw;
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+}
+
+
+.my-nerve-cursive {
+  font-family: "Mynerve", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: larger;
+}
+
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scrollbar-color: transparent;
 }
 
 .background {
@@ -7,7 +38,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
 }
 
 main {
@@ -39,7 +69,7 @@ body {
   color: #262a25
 }
 
-
+/*SIDEBAR*/
 #home-icon {
   width: 500px;
 }
@@ -172,30 +202,8 @@ li {
   cursor: pointer;
 }
 
-.form-page {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
-  width: 100vw;
-}
 
-
-form input {
-  height: 25px;
-  border-radius: 5px;
-  margin: 5px 5px;
-  border: 3px #262a25
-}
-
-form button {
-  border-style: none;
-  border-radius: 5px;
-  background-color: #262a25;
-  color: white;
-  width: 100px;
-  height: 30px;
-}
+/*LIST PAGES*/
 
 .general-page-wrapper {
   display: flex;
@@ -277,6 +285,7 @@ form button {
 
 
 .page-items img {
+  border-radius: 12px;
   margin: 20px;
   width: 200px;
   box-shadow: 5px 2px 2px #1b1b1b4d;
@@ -306,6 +315,8 @@ width: 70%;
 text-align: center;
 }
 
+/*CHARACTER INDEX PAGE*/
+
 .char-idx {
   height: 100%;
   display: flex;
@@ -321,6 +332,7 @@ text-align: center;
 }
 
 .char-idx img {
+  border-radius: 12px;
   width: 100%;
   box-shadow: 5px 2px 2px #1b1b1b4d;
   transition: width 0.3s;
@@ -330,81 +342,71 @@ text-align: center;
   width: 120%;
 }
 
-.select-filter {
-}
 
 
 /* ENTRY DETAILS */
-.world-intro {
-  margin: 0px;
-  width: 100vw;
-  height: 100vh;
+.details-wrapper {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.world-intro div {
+/*CARD COMPONENT*/
+.card {
+  margin-right: 4em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 24vw;
+  height: 40vw;
+  border-radius: 12px;
+  color: azure;
+}
+
+.card-back {
+  background-color: #e0cdaa;
+  color: #1b1b1b;
+}
+
+
+/*Intro Component*/
+.details-intro-wrapper {
+  width: 100vw;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.intro-content {
+  width: 20vw;
+}
+
+
+.book-bg-intro {
   width: 100%;
-  min-height: 75vh;
-  display: grid;
-  grid-template-areas: "stack";
+  height: 70em;
+  display: flex;
+  flex-basis: 0;
+  gap: 10em;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.world-intro div img {
-  align-self: center;
-  justify-self: center;
-  
+/* History Component*/
+.history-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
 }
 
-.world-intro div > * {
-  grid-area: stack;
+.history-wrapper img {
+  width: 25vw;
+  height: 100%
+}
+.history-wrapper p {
+  background-color: aliceblue;
 }
 
-.world-intro div .cover {
-  width: 20%;
-  align-self: center;
-  justify-self:baseline;
-  margin-left: 32rem;
-  box-shadow: -8px 3px 8px 3px #1b1b1b67;
-}
-
-.flip-card {
-  width: 20%;
-  align-self: center;
-  justify-self:baseline;
-  background-color: transparent;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  align-self: center;
-  justify-self:baseline;
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
-}

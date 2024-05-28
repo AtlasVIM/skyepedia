@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Select from 'react-select'
 
-export default function GeneralPage(props) {
+export default function GeneralListPage(props) {
 
     const [search, setSearch] = useState('')
    const [filterStatus, setStatus] = useState(false)
