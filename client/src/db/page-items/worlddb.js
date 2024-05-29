@@ -19,14 +19,15 @@ export const worldDB = [
         name: 'Leviathan University',
         to: 'leviathan_university',
         cover: leviCover,
-        category: [pa],
-        dimension: [nna],
-        celestialRegion: [gc],
+        tables: {
+            category: [pa],
+            dimension: [nna],
+            celestialRegion: [gc],
+        },
         polaroids: {
             history: leviUPolaroid,
         },
         md:'leviathan-university',
-        elements: ['intro'],
         quote: '*"The place that holds the future of our world "* - Bobber Otterson'
 
     },
@@ -34,28 +35,30 @@ export const worldDB = [
         name: 'Leviathan University\'s Museum of Curiosities',
         to: 'leviathan_university_museum_of_curiosities',
         cover: museumCover,
+        tables: {
         category:[pa],
         dimension: [est],
         celestialRegion: [gc],
+    },
         polaroids: {
             history: leviUPolaroid,
         },
         md: 'leviathan-university-museum-of-curiosities',
-        elements: ['intro', 'history'],
         quote: '*"This place really holds the beauty of living in such a magical world"* - Idris Yashanti'
     },
     {
         name: 'Guidivière',
         to: 'guidiviere',
         cover: guidiviereCover,
+        tables: {
         category:[pa],
         dimension: [nna],
         celestialRegion: [gc],
+        },
         polaroids: {
             history: leviUPolaroid,
         },
         md: 'guidiviere',
-        elements: ['intro', 'content'],
         quote: '*"Oh nation of rivers of gold, how gilded is your heart."*  -Odessipus, The Poet'
 
     }

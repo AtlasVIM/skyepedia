@@ -1,5 +1,5 @@
 import bookBG from '../../../assets/openbookbg.png'
-import { FlipCard } from '../FlipCard'
+import { FlipCard } from '../../flip-card/FlipCard'
 import Markdown from 'markdown-to-jsx'
 
 export default function DetailsIntroduction(props) {

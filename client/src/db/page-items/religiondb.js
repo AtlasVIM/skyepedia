@@ -17,24 +17,26 @@ export const religionDB = [
         name: 'The Revolution',
         to: 'revolution',
         cover: revolutionCover,
+        tables: {
         celestialRegion: [gc],
         type: [major, saint],
+        },
         polaroids: {
             history: leviUPolaroid,
         },
-        elements: ['intro'],
         quote: '"The Saint in the machine, the mark of change" - Mekhanes worshipper'
     },
     {
         name: 'The Ruin',
         to: 'ruin',
         cover: ruinCover,
+        tables: {
         celestialRegion: [gc],
         type: [major],
+        },
         polaroids: {
             history: leviUPolaroid,
         },
-        elements: ['intro'],
         quote: '"Ruin is not something you fear, but something you respect" -Emir Yusuf of Al-Zabaj'
     },
 ]

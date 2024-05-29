@@ -1,41 +1,56 @@
 
-<img style="float: left;" src='../../md-assets//polaroids/description/description_leviathan_university.png'/>
-A Universidade do Leviatã é maior universidade de toda a Grande Cumulus. Situada na Ilha Sobr’azul, esta universidade funciona quase como uma ilha-nação. É um destino popular para estudantes de todos os cantos da região devido ao rico plano letivo, séculos de história e prestígio superado por nenhuma outra universidade na região.
+<img style="float: left;" src='../../md-assets//polaroids/leviathan-university/description_leviathan_university.png'/>
+Leviathan University is the biggest university in all of the Grand Cumulus. Situated in the Sobr'azul Isle, this university functions almost like a island-nation. It is a popular spot for students from all over the region due to the rich educational plans, fulfilling student life or centuries of history and prestige surpassed by no other university in the region.
 
-# Aparência
-A universidade ocupa 100 km2 da área da Ilha Sobr’azul
+# Location
+While the [Sobr'azul](../world/guidiviere) isle has about 2000km2, only about 650km2 is covered by university or general purpose land. The university buildings only cover around 150km2, another 400km2 of the land being used for services like accommodation, storage, resource gathering, farming and other utilities needed in running the university.  
+Though the university center is where most of the educationally focused buildings are, most of the total area occupied is covered by these of single or multipurpose buildings, the periphery being focused more on the maintenance aspect of running the university.   
+For example while in the city center broader use buildings such as kindergarten to high-school schools for the local workers or accommodation, restaurants and bars for the students are more common, in the periphery agricultural, resource gathering and suburban/rural accommodation or faculties associated with the natural world such as Agricultural Studies, Biology, Geology, among others, are more common.  
+The other 1350km2 are mostly covered by wilderness, forests, lakes and the [Picot](../world/picot) mountain range.  
 
-<img style="float: right;" src='../../md-assets//polaroids/history/history_leviathan_university.png'/>
+<img style="float: right;" src='../../md-assets//polaroids/leviathan-university/history_leviathan_university.png'/>
 
-# Origens e Fundação
+# Origins & Foundation
+Leviathan University was founded on the 300th anniversary of the 187 Commission as a celebration of peace and cooperation among the island nations.  
+It was decided it would be built on the Sobr'azul isle, as it was an uninhabited and neutral island.
 
-A Universidade do Leviatã foi fundada como uma medida da Comissão de 187, de modo a unir as diferentes nações. 
 
-Foi construída na Ilha Sobr’azul, uma vez que era desabitada e não pertencia a nenhuma nação.  
+<img style="float: left;" src='../../md-assets//polaroids/leviathan-university/society_leviathan_university.png'/>
+# Politics
+As an interinsular university it always remains impartial and neutral to wider politics. During its foundation, the university was given a political status allowing it to operate autonomously within its border, being financed by states and wealthy individuals so it can be maintained in good will. It's also quite self-sufficient as most of the inhabitants work  outside of regular educational services in order to maintain it.  
 
-<img style="float: left;" src='../../md-assets//polaroids/society/society_leviathan_university.png'/>
-# Sistema Político
+Many scholarships are also given to the brightest students that pass the international exams or to students who live on far off islands in order to help them pay for transport and accommodation.  Some scholarships can also be financed in exchange for a few years of service after graduation, be it internships in companies and guilds, working in research and development laboratories inside and outside the university, work related to governments or other public offices or even military attendance.
 
-De modo a manter imparcialidade, foi concedida à universidade um estatuto de autonomia, sendo financiada por estados e por indivíduos para que seja possíveis sustentá-la, também oferece um leque de serviços dentro do campus e fora (como serviços de lazer e alimentação, pesquisa, gestão de guildas e organizações, entre outros) , de modo a angariar fundos para a sua manutenção. As doações e prestação de serviços permitem à universidade funcionar a um custo baixo para os estudantes e podendo auxiliar no custo de transporte de alunos que se situem longe da universidade.
+# Laws & Rules
+Student admission is made through an internation exam tailored to each specific course where, based on grades, previous work or even charisma and learning potential, the best students are admitted.
 
-# Regras e Leis
+Weapons are generally not allowed on campus, though you can keep them stored within your private accommodation.
 
-A admissão dos estudantes é feita através de um exame de admissão para cada curso específico em que os melhores resultados de uma certa área geográfica são selecionados consoante o número de vagas existente
+<img style="float: right;" src='../../md-assets//polaroids/leviathan-university/daily_life_leviathan_university.png'/>
 
-<img style="float: right;" src='../../md-assets//polaroids/daily-life/daily_life_leviathan_university.png'/>
+# Population
+In 101 E.R. the current student population is around 400.000 students and 1.2 million staff members.
 
-# Comércio & Economia
+Around 96% of students every year come from outside the isle, meaning around 4% of students were born and raised within the university's borders.
 
-Espalhados pela universidade existem variados serviços, normalmente associados ao lazer que tentar trazer diversão para a vida quotidiana dos estudantes ou trazer um pouco das suas terras-natal para a universidade.
+# Economy & Commerce
 
-Além disto a universidade tem vários residentes e membros do staff que estão encarregues do funcionamento das condições básicas e necessárias da universidade como agricultura e alimentação, saúde, segurança, etc mantendo a necessidade de importações ao mínimo possível e podendo até exportar algumas das suas produções. 
+Scattered throughout the university there are multiple types of commercial services be them markets, grocers, clothing stores and other retailers or more leisure oriented establishments like bars, cafés and restaurants or even arcades and pools.
 
-Muitos destes residentes eram ex-alunos da universidade.
+As stated before, the university is mostly self-sufficient, though it still requires some imports when it comes to construction for example, most of its resources are produced inland. 
 
-## Moeda
+## Currency
 
-A moeda utilizada na Universidade é o Levi, de modo a uniformizar os câmbios e moedas utilizados por todos os estudantes.
+The official currency of the Leviathan University is the Levi. The Levi was created in order to standardize the currency used by interinsular students and to facilitate commerce within the campus. 
 
-# Transporte
+# Transport
 
-Existe um sistema de transporte de trens arcanos que liga vários pontos de interesse e faculdades entre si, além disso existem trotinetas voadoras espalhadas pelo campus que permitem os estudantes atravessarem a universidade com alguma rapidez.
+The major transport system of the university is a large network of trams that connect the major faculty areas, social gathering areas, residential areas and other locations of importance. There are also roads made for vehicular travel along with the trams connecting the more uninhabited areas to the center.  
+
+Along with these larger modes of transport, flying scooters are also a popular choice among students to travel through the university campus quickly.
+
+
+# Accommodation
+All students are given a private room to live in until they graduate or drop out of their studies. Since there are a lot of students, residential districts are quite common and large.
+
+ 

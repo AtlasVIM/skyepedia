@@ -1,6 +1,7 @@
 import {useEffect, useState} from 'react'
 import ReactCardFlip from 'react-card-flip'
 import MarkDown from 'markdown-to-jsx'
+import { FlipCardTable } from './FlipCardTable'
 
 export const FlipCard = (props) => {
 
@@ -13,17 +14,6 @@ export const FlipCard = (props) => {
             setFlip(!isFlipped)
     }
 
-    useEffect(() => {
-        import(`../../markdown/tables/${entry.md}.md`)
-        .then( res => {
-
-            fetch(res.default)
-            .then(res => res.text())
-            .then(res => setTable(res))
-            .catch(err => console.log(err))
-        })
-        .catch(e => console.log(e))
-    })
 
 
   return (
@@ -32,9 +22,7 @@ export const FlipCard = (props) => {
             <div className='card' onMouseOver={handleFlip} style={{backgroundImage: `url(${entry.cover})`}}>
             </div>
             <div className='card card-back' onMouseLeave={handleFlip}>
-                <MarkDown>
-                    {table}
-                </MarkDown>
+                <FlipCardTable props={entry}/>
             </div>
         </ReactCardFlip>
     </div>

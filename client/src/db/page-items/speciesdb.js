@@ -17,12 +17,13 @@ export const speciesDB = [
         name: 'Green Wyvern of the Rivers',
         to:'green_wyvern_rivers',
         cover: greenWyvernRiverCover,
+        tables: {
         celestialRegion: [gc],
         type: [fau],
+        },
         polaroids: {
             history: leviUPolaroid,
         },
-        elements: ['intro'],
         quote: '"Fearsome... and capable of overwhelming an inexperienced crew... Surprisingly tasty"'
     }
 ]

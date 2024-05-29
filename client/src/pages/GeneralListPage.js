@@ -18,8 +18,7 @@ export default function GeneralListPage(props) {
                      Object.keys(selectedFilters).forEach(filter => {
                       selectedFilters[filter].forEach((entry) => {
                         const arr = filteredItems.filter((item) => {
-                            console.log(item[filter].includes(entry.value))
-                            return item[filter].includes(entry.value)
+                            return item.tables[filter].includes(entry.value)
                         })
                         setFiltered(arr)
                     })
