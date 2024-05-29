@@ -41,7 +41,7 @@ export const worldDB = [
             history: leviUPolaroid,
         },
         md: 'leviathan-university-museum-of-curiosities',
-        elements: ['intro'],
+        elements: ['intro', 'history'],
         quote: '*"This place really holds the beauty of living in such a magical world"* - Idris Yashanti'
     },
     {
@@ -55,7 +55,7 @@ export const worldDB = [
             history: leviUPolaroid,
         },
         md: 'guidiviere',
-        elements: ['intro', 'history'],
+        elements: ['intro', 'content'],
         quote: '*"Oh nation of rivers of gold, how gilded is your heart."*  -Odessipus, The Poet'
 
     }

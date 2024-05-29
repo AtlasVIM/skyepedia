@@ -7,8 +7,8 @@ export default function EntryDetailsPage(props) {
     const entry = props.props
 
     return (<div className='details-wrapper'>
-       {entry.elements.includes('intro') && <DetailsIntroduction props={entry}/>}
-       {entry.elements.includes('history') && <DetailsContent props={entry}/>}
+       {<DetailsIntroduction props={entry}/>}
+       {<DetailsContent props={entry}/>}
     </div>)
 
 }

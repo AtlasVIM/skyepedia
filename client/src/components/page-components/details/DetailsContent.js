@@ -6,15 +6,17 @@ export default function DetailsContent(props) {
     const [content, setContent] = useState('')
 
     useEffect(() => {
-        import(`../../../../public/markdown/content/${entry.md}.md`)
-        .then( res => {
-
-            fetch(res.default)
-            .then(res => res.text())
-            .then(res => setContent(res))
-            .catch(err => console.log(err))
-        })
-        .catch(e => console.log(e))
+        if(entry.md){
+            import(`../../../../public/markdown/content/${entry.md}.md`)
+            .then( res => {
+                
+                fetch(res.default)
+                .then(res => res.text())
+                .then(res => setContent(res))
+                .catch(err => console.log(err))
+            })
+            .catch(e => console.log(e))
+        }
     })
 
 
