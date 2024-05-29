@@ -3,16 +3,15 @@
 import leviCover from '../../assets/covers/leviu.png'
 import museumCover from '../../assets/covers/leviumuseum.png'
 import guidiviereCover from '../../assets/covers/guidiviere.png'
-
-//POLAROIDS
-import leviUPolaroid from '../../assets/polaroids/HISTORY_TEMPLATE.png'
+import mountPicotCover from '../../assets/covers/mount_picot.png'
+import sobrazulCover from '../../assets/covers/sobrazul_isle.png'
 
 //TABLES
 
 //MARKDOWN CONTENT
 
 
-import { gc, nna, pa, est } from '../misc/vardb'
+import { gc, nna, pa, est, gr, lm, ga } from '../misc/vardb'
 
 export const worldDB = [
     {
@@ -23,9 +22,6 @@ export const worldDB = [
             category: [pa],
             dimension: [nna],
             celestialRegion: [gc],
-        },
-        polaroids: {
-            history: leviUPolaroid,
         },
         md:'leviathan-university',
         quote: '*"The place that holds the future of our world "* - Bobber Otterson'
@@ -40,9 +36,6 @@ export const worldDB = [
         dimension: [est],
         celestialRegion: [gc],
     },
-        polaroids: {
-            history: leviUPolaroid,
-        },
         md: 'leviathan-university-museum-of-curiosities',
         quote: '*"This place really holds the beauty of living in such a magical world"* - Idris Yashanti'
     },
@@ -55,11 +48,35 @@ export const worldDB = [
         dimension: [nna],
         celestialRegion: [gc],
         },
-        polaroids: {
-            history: leviUPolaroid,
-        },
         md: 'guidiviere',
         quote: '*"Oh nation of rivers of gold, how gilded is your heart."*  -Odessipus, The Poet'
 
-    }
+    },
+    {
+        name: 'Mount Picot',
+        to: 'mount-picot',
+        cover: mountPicotCover,
+        tables: {
+        category:[ga],
+        dimension: [lm],
+        celestialRegion: [gc],
+        },
+        md: 'mount-picot',
+        quote: 'More adventurous students love to come here, almost all of them come back'
+
+    },
+    {
+        name: 'Sobr\'azul Isle',
+        to: 'sobrazul-isle',
+        cover: sobrazulCover,
+        tables: {
+        category:[ga],
+        dimension: [gr],
+        celestialRegion: [gc],
+        },
+        md: 'sobrazul-isle',
+        quote: 'Over the blue waters of Leviathan River, the lonely isle'
+
+    },
+    
 ]

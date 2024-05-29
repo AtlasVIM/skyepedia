@@ -3,16 +3,16 @@
 Leviathan University is the biggest university in all of the Grand Cumulus. Situated in the Sobr'azul Isle, this university functions almost like a island-nation. It is a popular spot for students from all over the region due to the rich educational plans, fulfilling student life or centuries of history and prestige surpassed by no other university in the region.
 
 # Location
-While the [Sobr'azul](../world/guidiviere) isle has about 2000km2, only about 650km2 is covered by university or general purpose land. The university buildings only cover around 150km2, another 400km2 of the land being used for services like accommodation, storage, resource gathering, farming and other utilities needed in running the university.  
+While the [Sobr'azul](../world/sobrazul-isle) isle has about 2000km2, only about 650km2 is covered by university or general purpose land. The university buildings only cover around 150km2, another 400km2 of the land being used for services like accommodation, storage, resource gathering, farming and other utilities needed in running the university.  
 Though the university center is where most of the educationally focused buildings are, most of the total area occupied is covered by these of single or multipurpose buildings, the periphery being focused more on the maintenance aspect of running the university.   
 For example while in the city center broader use buildings such as kindergarten to high-school schools for the local workers or accommodation, restaurants and bars for the students are more common, in the periphery agricultural, resource gathering and suburban/rural accommodation or faculties associated with the natural world such as Agricultural Studies, Biology, Geology, among others, are more common.  
-The other 1350km2 are mostly covered by wilderness, forests, lakes and the [Picot](../world/picot) mountain range.  
+The other 1350km2 are mostly covered by wilderness, forests, lakes and the [Picot](../world/mount-picot) mountain range.  
 
 <img style="float: right;" src='../../md-assets//polaroids/leviathan-university/history_leviathan_university.png'/>
 
 # Origins & Foundation
 Leviathan University was founded on the 300th anniversary of the 187 Commission as a celebration of peace and cooperation among the island nations.  
-It was decided it would be built on the Sobr'azul isle, as it was an uninhabited and neutral island.
+It was decided it would be built on the [Sobr'azul isle](../world/sobrazul-isle), as it was an uninhabited and neutral island.
 
 
 <img style="float: left;" src='../../md-assets//polaroids/leviathan-university/society_leviathan_university.png'/>

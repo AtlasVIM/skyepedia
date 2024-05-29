@@ -1,17 +1,17 @@
+import damienShamrockCover from '../../assets/covers/damien_shamrock.png'
+
 import { ga, gc, npc} from '../misc/vardb'
 
 
 export const npcDB = [
-/*    {
+    {
         name: 'Damien Shamrock',
         to:'damien_shamrock',
-        cover: '',
-        celestialRegion: [gc],
-        type: [npc],
-        polaroids: {
-            history: 'leviUPolaroid'
+        cover: damienShamrockCover,
+        tables :{
+            celestialRegion: [gc],
+            type: [npc],
         },
-        elements: ['intro'],
         quote: 'For a brighter tomorrow'
-    }*/
+    }
 ]

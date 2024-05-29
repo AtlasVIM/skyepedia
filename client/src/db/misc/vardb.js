@@ -30,4 +30,4 @@ export const fau = 'fauna'
 export const flo = 'flora'
 
 //Character Types
-export const npc = 'npc'
+export const npc = 'non player character'
