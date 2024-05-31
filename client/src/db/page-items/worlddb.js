@@ -62,7 +62,7 @@ export const worldDB = [
         celestialRegion: [gc],
         },
         md: 'mount-picot',
-        quote: 'More adventurous students love to come here, almost all of them come back'
+        quote: '*"More adventurous students love to come here, almost all of them come back"*'
 
     },
     {
@@ -75,7 +75,7 @@ export const worldDB = [
         celestialRegion: [gc],
         },
         md: 'sobrazul-isle',
-        quote: 'Over the blue waters of Leviathan River, the lonely isle'
+        quote: '*"Over the blue waters of Leviathan River, the lonely isle"*'
 
     },
     

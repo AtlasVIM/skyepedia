@@ -10,7 +10,7 @@ export default function DetailsIntroduction(props) {
         <div className='details-intro-wrapper'>
             <div className='book-bg-intro' style={{backgroundImage: `url(${bookBG})`}}>
             <FlipCard props={entry}/>
-                <Markdown className='intro-content jacquard-12-regular'>
+                <Markdown className='intro-content kaushan-script-regular'>
                     {entry.quote}
                 </Markdown>
             </div>

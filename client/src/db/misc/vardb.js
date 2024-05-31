@@ -31,3 +31,7 @@ export const flo = 'flora'
 
 //Character Types
 export const npc = 'non player character'
+
+//Literature Types
+export const note = 'note'
+export const book = 'book'
