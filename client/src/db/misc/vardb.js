@@ -35,3 +35,6 @@ export const npc = 'non player character'
 //Literature Types
 export const note = 'note'
 export const book = 'book'
+
+//Item Types
+export const gac = 'games and collectibles'

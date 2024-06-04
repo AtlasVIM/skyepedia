@@ -1,4 +1,4 @@
-import { cr, est, ga, gc, gr, ina, lm, nna, pa, poi, sett, gn, saint, minor, major, fau, flo, note } from "./vardb";
+import { cr, est, ga, gc, gr, ina, lm, nna, pa, poi, sett, gn, saint, minor, major, fau, flo, note, gac } from "./vardb";
 
 /*export const worldFilters =
     [
@@ -62,4 +62,11 @@ export const literatureFilter = {
     category: [
         {value: note, label:note.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
     ]
+}
+
+export const itemFilter = {
+    category: [
+        {value: gac, label:gac.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
+    ]
+
 }

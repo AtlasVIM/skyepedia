@@ -17,7 +17,7 @@ import { ideologiesDB } from './db/page-items/ideologiesdb.js';
 import { dailylifeDB } from './db/page-items/dailylifedb.js';
 import { itemsDB } from './db/page-items/itemsdb.js';
 
-import { literatureFilter, religionFilters, speciesFilters, worldFilters } from './db/misc/filtersdb.js';
+import { literatureFilter, religionFilters, speciesFilters, worldFilters, itemFilter } from './db/misc/filtersdb.js';
 import { literatureDB } from './db/page-items/literaturedb.js';
 import ComingSoon from './pages/ComingSoon.js';
 
@@ -36,7 +36,7 @@ function App() {
           <Route path='/ideologies' element={<GeneralListPage db={ideologiesDB}/>}/>
           <Route path='/dailylife' element={<GeneralListPage db={dailylifeDB}/>}/>
           <Route path='/literature' element={<GeneralListPage db={literatureDB} filters={literatureFilter}/>}/>
-          <Route path='/items' element={<GeneralListPage db={itemsDB}/>}/>
+          <Route path='/items' element={<GeneralListPage db={itemsDB} filters={itemFilter}/>}/>
           <Route path='/characters' element={<CharacterTypeIndex/>}/>
           
           <Route path="characters/npcs" element={<GeneralListPage db={npcDB}/>}/>
