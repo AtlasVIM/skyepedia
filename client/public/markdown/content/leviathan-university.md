@@ -1,12 +1,15 @@
 
 <img style="float: left;" src='../../md-assets//polaroids/leviathan-university/description_leviathan_university.png'/>
-Leviathan University is the biggest university in all of the Grand Cumulus. Situated in the Sobr'azul Isle, this university functions almost like a island-nation. It is a popular spot for students from all over the region due to the rich educational plans, fulfilling student life or centuries of history and prestige surpassed by no other university in the region.
+Leviathan University is the biggest university in all of the Grand Cumulus. Situated in the [Sobr'azul Isle](../world/sobrazul-isle), this university functions almost like a island-nation. It is a popular spot for students from all over the region due to the rich educational plans, fulfilling student life or centuries of history and prestige surpassed by no other university in the region.
 
 # Location
-While the [Sobr'azul](../world/sobrazul-isle) isle has about 2000km2, only about 650km2 is covered by university or general purpose land. The university buildings only cover around 150km2, another 400km2 of the land being used for services like accommodation, storage, resource gathering, farming and other utilities needed in running the university.  
-Though the university center is where most of the educationally focused buildings are, most of the total area occupied is covered by these of single or multipurpose buildings, the periphery being focused more on the maintenance aspect of running the university.   
+While the [Sobr'azul](../world/sobrazul-isle) isle has about 2000km2, only about 650km2 is covered by university or general purpose land. The university buildings only cover around 1
+150km2, another 500km2 of the land being used for services like accommodation, storage, resource gathering, farming and other utilities needed in running the university.  
+Though the university center is where most of the educationally focused buildings are, most of the total area of the university occupied is covered by single or multipurpose buildings typically associated with on the maintenance aspect of running the university, specially you venture outside the university centers.   
 For example while in the city center broader use buildings such as kindergarten to high-school schools for the local workers or accommodation, restaurants and bars for the students are more common, in the periphery agricultural, resource gathering and suburban/rural accommodation or faculties associated with the natural world such as Agricultural Studies, Biology, Geology, among others, are more common.  
 The other 1350km2 are mostly covered by wilderness, forests, lakes and the [Picot](../world/mount-picot) mountain range.  
+
+The university grounds are divided into Districts all lettered from A to Z, this was made as an effort to not segregate the different faculties too much, though some districts are generally known for their particularly popular district faculty or unique architecture, such as the G district being a very technologically minded district with more modern building designs, while in the B District is more known for its artistic or political counter cultures.
 
 <img style="float: right;" src='../../md-assets//polaroids/leviathan-university/history_leviathan_university.png'/>
 
@@ -22,7 +25,7 @@ As an interinsular university it always remains impartial and neutral to wider p
 Many scholarships are also given to the brightest students that pass the international exams or to students who live on far off islands in order to help them pay for transport and accommodation.  Some scholarships can also be financed in exchange for a few years of service after graduation, be it internships in companies and guilds, working in research and development laboratories inside and outside the university, work related to governments or other public offices or even military attendance.
 
 # Laws & Rules
-Student admission is made through an internation exam tailored to each specific course where, based on grades, previous work or even charisma and learning potential, the best students are admitted.
+Student admission is made through an interinsular exam tailored to each specific course where, based on grades, previous work or even charisma and learning potential, the best students are admitted.
 
 Weapons are generally not allowed on campus, though you can keep them stored within your private accommodation.
 
