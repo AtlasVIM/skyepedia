@@ -1,7 +1,7 @@
 ### Welcome to the ultimate showdown to decide 
 
 # The King of Explorers 
-<img style="float: right;" src='../../md-assets//polaroids/koe/about_us_koe.png'/>
+<img style="float: right;" src='../../md-assets/polaroids/koe/about_us_koe.png'/>
 Developed by Leviathan University Games this is the exciting new collaboration between [Skyepedia](./skyepedia) and the Fighting Game Club of the Leviathan University. 
 
 King of Explorer's seek to deliver a thrilling video-game experience but also an opportunity to learn about our world's most important people, which of our history's most famous heroes, villains or something in between shall take the crown and claim the throne of the King of Explorers. 

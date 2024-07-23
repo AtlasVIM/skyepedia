@@ -22,7 +22,7 @@ export default function DetailsContent(props) {
 
     return(
         <div className='history-wrapper'>
-            <Markdown className='permanent-marker-regular content-wrapper'>
+            <Markdown className='nunito-desc content-wrapper'>
                 {content}
             </Markdown>
         </div>

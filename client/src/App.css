@@ -11,11 +11,18 @@
   font-size: 4vw;
 }
 
+.nunito-desc {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
 .permanent-marker-regular {
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .kaushan-script-regular {
