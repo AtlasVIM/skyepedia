@@ -5,6 +5,7 @@ import museumCover from '../../assets/covers/leviumuseum.png'
 import guidiviereCover from '../../assets/covers/guidiviere.png'
 import mountPicotCover from '../../assets/covers/mount_picot.png'
 import sobrazulCover from '../../assets/covers/sobrazul_isle.png'
+import leviRiverCover from '../../assets/covers/leviathan_river.png'
 
 //TABLES
 
@@ -76,6 +77,19 @@ export const worldDB = [
         },
         md: 'sobrazul-isle',
         quote: '*"Over the blue waters of Leviathan River, the lonely isle"*'
+
+    },
+    {
+        name: 'Leviathan River',
+        to: 'leviathan-river',
+        cover: leviRiverCover,
+        tables: {
+        category:[ga],
+        dimension: [lm],
+        celestialRegion: [gc],
+        },
+        md: 'leviathan-river',
+        quote: '*"Leviathan, you were born out of the tears of mighty serpents so that we shall not shed them ourselves." - Odessipus, the Poet*'
 
     },
     
