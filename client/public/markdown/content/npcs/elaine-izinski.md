@@ -32,6 +32,8 @@ Elaine was born in 4th of Isoles of the year 80 R.E. in Chesnoya, Kaczyslaw, a v
 
 During infancy, Elaine spent a lot of her time in the woods and fields of Chesnoya, reading books or playing with the children of her village. This gave her a profound appreciation for nature.
 
+(?)
+
 ## Adult Life
 
 ### 99 E.R. -
@@ -52,8 +54,13 @@ Elaine is not a very political person except when it comes with Environmentalism
 
 ## Friends
 
-Ashtorethia and her friends - **Sometimes she shares magical (narcotic) herbs she raises with her friends.**
+### Ashtorethia and her friends
+
+Ashtorethia is the love of her life. A great partner through thick and thin.
+
+Sometimes she shares magical (narcotic) herbs she raises with Ashtorethia's friends.
 
 ## Rivals
 
-[Blair Alexander](./blair_alexander) - ?
+### [Blair Alexander](./blair_alexander)
+(?)

@@ -43,7 +43,7 @@ People who disrespect his work.
 
 ## Birth
 
-?
+(?)
 
 ## Adulthood
 
@@ -56,10 +56,10 @@ He became an Grand Cumulian History teacher at Leviathan University in 95 R.E.. 
 # Philosophy
 
 
-?
+(?)
 
 
 
 # Relationships
 
-?
+(?)
