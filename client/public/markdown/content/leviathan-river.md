@@ -3,9 +3,9 @@ The Leviathan River is the largest river in all of Grand Cumulus.
 
 It spans all the way across the region, from the eastern boundary (near the Xenian Isle) to the western boundary (near the Syzlaw archipelago), winding its way through many other isles and archipelagos, serving as one of the most important cultural landmarks in all the region.
 
-<img style="float: right;" src='../../md-assets/polaroids/leviathan_river_the_river.png'/>
 
 # Geography
+<img style="float: right;" src='../../md-assets/polaroids/leviathan_river_the_river.png'/>
 
 The river is about 5 km deep and 4 km wide, encapsulating many floating isles and archipelagos like the Águafina archipelago and some parts of Guidivière. It is quite a snake-like river as it often loops around itself or goes back towards its origin. 
 
@@ -15,9 +15,10 @@ Since it is such a large mass of water, it is home to many water-based species s
 
 Such a rich ecosystem can be quite affected by pollution and overfishing so be mindful of our region’s greatest river!
 
-<img style="float: left;" src='../../md-assets/polaroids/leviathan_river_history.png'/>
+
 # History & Cultural Significance
 
+<img style="float: left;" src='../../md-assets/polaroids/leviathan_river_history.png'/>
 The Leviathan River might be one of the most important landmarks to our region’s history and cultural development as it was pivotal to many civilizations that lived and thrived near it.
 
 Specially after these cultures invented flight and started using the river for transport, fishing and even irrigation in closer isles. Nowadays, it can be even used in industry and to syphon Radiocosmological Frequencies to power our modern technologies.

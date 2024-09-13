@@ -1,5 +1,5 @@
-<img style="float: left;" src='../../md-assets/polaroids/constellations.png'/>
 # What are Gods?
+<img style="float: left;" src='../../md-assets/polaroids/constellations.png'/>
 
 Since the dawn of recorded history, beings with extraordinary power, each embodying concepts, ideas or other aspects of our reality, lived among sentient beings. These beings theologians and historians have come to name them Concepts.
 

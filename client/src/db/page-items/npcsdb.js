@@ -16,7 +16,8 @@ export const npcDB = [
             celestialRegion: [gc],
             type: [npc],
         },
-        quote: 'For a brighter tomorrow'
+        quote: '"For a brighter tomorrow"',
+        md: 'npcs/damien-shamrock'
     },
     {
         name: 'Vasco Represas',
@@ -27,7 +28,8 @@ export const npcDB = [
             type: [npc],
             group: 'Skaterboyz'
         },
-        quote: '"Woah, radical, dude."'
+        quote: '"Woah, radical, dude."',
+        md:'npcs/vasco_represas'
     },
     {
         name: 'Idris Yashanti',
@@ -39,7 +41,8 @@ export const npcDB = [
             group: ['Leviathan University Faculty'],
             sexuality: ['Homossexual']
         },
-        quote: 'Mystery brings curiosity. Curiosity brings knowledge. Knowledge brings power.'
+        quote: 'One cannot be wise if they\'re not curious.',
+        md:''
     },
     {
         name: 'Wu-Jin Lee',
