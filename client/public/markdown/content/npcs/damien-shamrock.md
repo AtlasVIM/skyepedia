@@ -32,11 +32,11 @@ People who disrespect his work.
 
 ## Motivations
 
-?
+(?)
 
 ## Fears
 
-?
+(?)
 
 # Biography
 

@@ -70,3 +70,11 @@ export const itemFilter = {
     ]
 
 }
+
+export const npcsFilter = {
+    celestialRegion: [
+        {value:gc, label:gc.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
+        {value:gn, label:gn.split(' ').map((word) => {return word[0].toUpperCase() + word.substring(1)}).join(' ')},
+    ],
+    
+}

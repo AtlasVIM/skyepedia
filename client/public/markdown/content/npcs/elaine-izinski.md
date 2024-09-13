@@ -8,15 +8,18 @@ She is a gentle, kind and patient soul. Always willing to listen to another pers
 
 ## Likes
 
-Flowers. Nature. Ashtorethia.
+Flowers. 
+Nature. 
+Ashtorethia.
 
 ## Dislikes
 
-Rude People, egotistical people
+Rude People, egotistical people.
 
 ## Motivations
 
-Learn more about the world. Live in comunion with nature
+Learn more about the world. 
+Live in comunion with nature.
 
 ## Fears
 
