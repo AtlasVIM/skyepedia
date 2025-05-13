@@ -8,7 +8,7 @@ The Calendar was a measure developed and installed during the 187 Commision as a
 ## Eras
 # Chaos Era (~100.000.000 years)
 Period before recorded history, it's estimated to have lasted around a hundred million years.  
-# Prime Era (10.503 years)
+# Prime Era (100.503 years)
 This era starts with the first recorded encounter between a sentient being and what is later considered a deity, this being [the First Saint](../religion/revolution) and [The Ruin](../religion/ruin). This is an era where major civilizations were born and died.
 # Exploration Era (1.489 years)
 Starting with the first recorded meeting between two interinsular nations, it was an era marked by innovation in air travel and use of magic, exploration of the region by intrepid adventurers but also many wars and most famously the period between the year 1.403 and 1.455 called The Little Dark Age.
